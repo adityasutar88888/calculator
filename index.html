@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img
+            id="bg"
+            src="https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=740&t=st=1710326439~exp=1710327039~hmac=7962b95f9f51a6e9107d3a7ad18e49a681229b3de4229a726d324dd06d97bf13"
+            alt=""
+        />
+        <div class="calculator">
+            <input type="text" id="input" readonly />
+            <div class="button-container">
+                <button onclick="input('1')">1</button>
+                <button onclick="input('2')">2</button>
+                <button onclick="input('3')">3</button>
+                <button onclick="input('+')" class="opretor">+</button>
+                <button onclick="input('4')">4</button>
+                <button onclick="input('5')">5</button>
+                <button onclick="input('6')">6</button>
+                <button onclick="input('-')" class="opretor">-</button>
+                <button onclick="input('7')">7</button>
+                <button onclick="input('8')">8</button>
+                <button onclick="input('9')">9</button>
+                <button onclick="input('/')" class="opretor">/</button>
+                <button onclick="input('00')">00</button>
+                <button onclick="input('0')">0</button>
+                <button onclick="input('.')">.</button>
+                <button onclick="input('*')" class="opretor">*</button>
+                <button onclick="c()" class="opretor">C</button>
+                <button onclick="equal()" class="opretor" id="equal">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
